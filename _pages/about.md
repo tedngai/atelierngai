@@ -1,11 +1,35 @@
 ---
-layout: page
-title: About
-image: '/images/pages/1.jpg'
+title: "About"
+permalink: "/about.html"
+image: "/assets/images/screenshot.jpg"
 ---
 
-You love minimalism, want to be productive focusing only on the important things and want to take jekyll to the next level, Sinai is designed for you. Sinai focus on showing your content in a clean and simple way, focus on images, typography, and white space.
+Hi, guys! The website you are previewing is a demonstration for Pintereso Jekyll theme and it is hosted on Github pages. There are various ways you can use Pintereso with your Jekyll website. Here are some of them:
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+- blogging
+- curated resources
+- affiliate marketing
+- resume
+- portfolio
+- photography
 
-Lorem ipsum dolor sit amet, vix ut case porro facilisis, alia possit neglegentur vis te. Has cu eirmod abhorreant, vel civibus efficiantur cu. Eu summo elitr vix, iusto putant maluisset per ut, ne etiam vivendum adipisci vel. Vis omnis tempor accusam ei, justo perpetua liberavisse cu qui. Saperet aliquando adipiscing ius ne, ne facer euripidis est. Pro mundi nostrum suavitate et.
+**Features**
+
+- 100% Github Pages Compatibility
+- Bootstrap 4.x
+- SEO Integration
+- Search
+- Categories
+- Prev/Next Post
+- Pagination
+- Disqus Comments
+- Sitemap
+- Feed
+- Formspree Contact Form
+- Pinterest, AddThis, Google Analytics
+- Font Awesome 5+
+- Cookie Consent & Privacy Policy
+
+Made with <i class="fa fa-heart text-danger"></i> by Sal @wowthemesnet. Thanks for your <a target="_blank" href="https://www.wowthemes.net/freebies-license/">support</a>!
+
+<a class="btn btn-danger" href="https://github.com/wowthemesnet/template-pintereso-bootstrap-jekyll/archive/master.zip"><i class="fa fa-download"></i> pintereso.zip</a> <a target="_blank" class="btn btn-warning" href="https://www.buymeacoffee.com/sal"><i class="fa fa-coffee"></i> Buy me a coffee?</a>

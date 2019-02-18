@@ -1,48 +1,46 @@
-# Welcome to Sinai Jekyll Theme!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Site
+name: 'atelier ngai'
+description: 'Pintereso is a free Jekyll theme for awesome people like you, Pinterest like.'
+logo: ''
+favicon: ''
+baseurl: '/atelierngai'
+avatar: 'assets/images/sal.jpg'
+disqus: 'demowebsite'
+email: 'wowthemesnet@gmail.com'
 
-theme_version: 1.0.1
+include: ["_pages"]
+permalink: /:title/
 
-# Site settings
-title:              Sinai
-logo:               # Logo image URL
-description:        Thoughts, Stories and Ideas
-baseurl:            '/atelierngai' # The subpath of your site, e.g. /blog
-url:                'https://tedngai.github.io/' # The base hostname & protocol for your site
-twitter:            https://twitter.com/aspirethemes
-facebook:           https://www.facebook.com/aspirethemes
-instagram:          https://www.instagram.com/aspirethemes
-
-markdown:  kramdown
-permalink: pretty
-paginate:  12
-sass:
-  style: compressed
-
-gems:
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
   - jekyll-paginate
-  - jekyll/tagging
+  - jekyll-seo-tag
 
-include:
-  - _pages
-
-exclude:
-  - vendor
-  - Gemfile
-  - Gemfile.lock
-
-# Tags
-tag_page_dir:         tag
-tag_page_layout:      tag_page
-tag_permalink_style:  pretty
-
-# Pages path
+# Defaults
 defaults:
+
+  # all posts
   - scope:
-      path: '_pages'
+      path: "_posts"
     values:
-      permalink: /:basename:output_ext
+      layout: post
+
+  # all pages
+  - scope:
+      path: "_pages"
+    values:
+      layout: page
+
+
+# Syntax
+markdown: kramdown
+highlighter: rouge
+
+# Pagination
+paginate: 20
+
+
+# Exclude metadata and development time dependencies (like Grunt plugins)
+exclude: [README.markdown, package.json, grunt.js, Gruntfile.js, Gruntfile.coffee, node_modules]

@@ -2,20 +2,36 @@
 layout: default
 ---
 
-{% include page-hero.html %}
+<section class="bg-gray200 pt-5 pb-5">
+    
+    <div class="container">
+        
+    	<div class="row justify-content-center">
+            
+    		<div class="col-md-8">
+                
+    			<article class="card">
 
-<div class='o-wrapper'>
+                     {% if page.image %} 
+                        <img class="card-img-top mb-2" src="{% if page.image contains "://" %}{{ page.image }}{% else %}{{ page.image | absolute_url }}{% endif %}" alt="{{ page.title }}"> 
+                    {% endif %}
 
-  <div class='o-grid'>
-    <div class='o-grid__col o-grid__col--center o-grid__col--3-4-m o-grid__col--2-3-l'>
-      <article class='c-post page'>
+                    <div class="card-body">
 
-        <div class='c-content'>
-          {{ content }}
-        </div>
+                        <h1 class="display-4">
+                            {{page.title}} 
+                        </h1>
 
-      </article>
+                        {{ content }}
+
+                    </div>  
+                    
+    			</article>
+                
+    		</div>
+            
+    	</div>
+        
     </div>
-  </div>
-
-</div>
+    
+</section>
