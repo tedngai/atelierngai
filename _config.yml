@@ -11,8 +11,8 @@ theme_version: 1.0.1
 title:              Sinai
 logo:               # Logo image URL
 description:        Thoughts, Stories and Ideas
-baseurl:            '' # The subpath of your site, e.g. /blog
-url:                'https://sinai-jekyll.netlify.com/' # The base hostname & protocol for your site
+baseurl:            '/atelierngai' # The subpath of your site, e.g. /blog
+url:                'https://tedngai.github.io/' # The base hostname & protocol for your site
 twitter:            https://twitter.com/aspirethemes
 facebook:           https://www.facebook.com/aspirethemes
 instagram:          https://www.instagram.com/aspirethemes
