@@ -3,3 +3,8 @@ reference/
 __pycache__/
 *.pyc
 .DS_Store
+
+# Local project docs
+AGENTS.md
+MEMORY.md
+PRD.md
